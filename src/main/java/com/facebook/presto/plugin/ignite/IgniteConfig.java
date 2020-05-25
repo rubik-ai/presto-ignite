@@ -49,7 +49,7 @@ public class IgniteConfig {
     /**
      * @param url the url to set
      */
-    @Config("ignite.password")
+    @Config("ignite.url")
     public IgniteConfig setUrl(String url) {
         this.url = url;
         return this;
